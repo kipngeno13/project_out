@@ -5,25 +5,24 @@ requires = ["setuptools","wheel"]
 name = "project_out"
 version = "1.0.0"
 authors = [
-	{name = "Kevin", email = "kipngenokkoech13@gmail.com"},
+  {name = "Kevin", email = "kipngenokkoech13@gmail.com"},
 ]
-desription = "Agile process Walkthrough"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-	# none
+  # none
 ]
 [project.optional-dependencies] 
 dev = [
-	# Dev tools to work on this project 
-	"sphinx==7.0.1",
-	"sphinxcontrib-plantuml==0.25",
-	"pip-tools==6.13.0"
+  # Dev tools to work on this project 
+  "sphinx==7.0.1",
+  "sphinxcontrib-plantuml==0.25",
+  "pip-tools==6.13.0"
 ]
 test = [
-	# testing tools
-	"pytest==7.2.0",
-	"tox==4.0.8",
-	"behave==1.2.6"
+  # testing tools
+  "pytest==7.2.0",
+  "tox==4.0.8",
+  "behave==1.2.6"
 ]
 
